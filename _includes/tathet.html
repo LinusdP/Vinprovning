@@ -1,0 +1,23 @@
+{% assign pos = "" %}
+{% if include.value == "låg" %}{% assign pos = "15%" %}
+{% elsif include.value == "låg-medel" %}{% assign pos = "35%" %}
+{% elsif include.value == "medel" %}{% assign pos = "50%" %}
+{% elsif include.value == "medel-hög" %}{% assign pos = "65%" %}
+{% elsif include.value == "hög" %}{% assign pos = "85%" %}
+{% elsif include.percent %}{% assign pos = include.percent %}
+{% endif %}
+
+<div class="density-wrapper">
+  <div class="density-bar">
+    {% if include.percent %}
+      <div class="density-marker" style="--pos: {{ pos }};"></div>
+    {% else %}
+      <div class="density-bracket" style="--pos: {{ pos }};"></div>
+    {% endif %}
+  </div>
+  <div class="density-legend">
+    <span>Låg</span>
+    <span>Medel</span>
+    <span>Hög</span>
+  </div>
+</div>
