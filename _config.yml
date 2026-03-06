@@ -10,6 +10,12 @@ baseurl: "/Vinprovning"
 markdown: kramdown
 header_pages:
   - index.md
+  - grapes/pinot_noir.md
+  - grapes/gamay.md
+  - grapes/nebbiolo.md
+  - grapes/merlot.md
+  - grapes/syrah.md
+  - grapes/cabernet_sauvignon.md
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
