@@ -2,7 +2,6 @@
 layout: page
 title: Nebbiolo
 ---
-# Nebbiolo
 
 ![Nebbiolo](../images/nebbiolo.png)
 

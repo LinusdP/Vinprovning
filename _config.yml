@@ -8,6 +8,8 @@ baseurl: "/Vinprovning"
 
 # Jekyll configuration
 markdown: kramdown
+header_pages:
+  - index.md
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

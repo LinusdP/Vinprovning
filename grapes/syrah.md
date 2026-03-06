@@ -2,7 +2,6 @@
 layout: page
 title: Syrah
 ---
-# Syrah
 
 ![Syrah](../images/syrah.png)
 
