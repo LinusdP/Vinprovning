@@ -13,5 +13,6 @@
 - **Syra:** Medel
 
 ## Färg och utseende
+![Red Color Gradient](../images/color.svg)
 - **Nyans:** Från rött till djupt rubinröd
 - **Täthet:** Hög
