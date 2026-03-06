@@ -12,9 +12,9 @@ title: Cabernet Sauvignon
 
 ## Smakprofil
 <div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
-  {% include smakklocka.html label="Fyllighet" value=11 %}
-  {% include smakklocka.html label="Strävhet" value=10 %}
-  {% include smakklocka.html label="Syra" value=10 %}
+  {% include smakklocka.html label="Fyllighet" min=8 max=10 %}
+  {% include smakklocka.html label="Strävhet" min=9 max=11 %}
+  {% include smakklocka.html label="Syra" min=7 max=9 %}
 </div>
 
 ## Färg och utseende

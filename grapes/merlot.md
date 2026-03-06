@@ -12,9 +12,9 @@ title: Merlot
 
 ## Smakprofil
 <div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
-  {% include smakklocka.html label="Fyllighet" value=9 %}
+  {% include smakklocka.html label="Fyllighet" min=7 max=9 %}
   {% include smakklocka.html label="Strävhet" min=5 max=7 %}
-  {% include smakklocka.html label="Syra" value=5 %}
+  {% include smakklocka.html label="Syra" min=5 max=7 %}
 </div>
 
 ## Färg och utseende

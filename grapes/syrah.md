@@ -13,8 +13,8 @@ title: Syrah
 ## Smakprofil
 <div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
   {% include smakklocka.html label="Fyllighet" min=9 max=11 %}
-  {% include smakklocka.html label="Strävhet" value=9 %}
-  {% include smakklocka.html label="Syra" value=9 %}
+  {% include smakklocka.html label="Strävhet" min=7 max=9 %}
+  {% include smakklocka.html label="Syra" min=6 max=8 %}
 </div>
 
 ## Färg och utseende

@@ -13,8 +13,8 @@ title: Gamay
 ## Smakprofil
 <div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
   {% include smakklocka.html label="Fyllighet" min=2 max=4 %}
-  {% include smakklocka.html label="Strävhet" value=2 %}
-  {% include smakklocka.html label="Syra" value=10 %}
+  {% include smakklocka.html label="Strävhet" min=3 max=5 %}
+  {% include smakklocka.html label="Syra" min=8 max=10 %}
 </div>
 
 ## Färg och utseende

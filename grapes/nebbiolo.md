@@ -13,8 +13,8 @@ title: Nebbiolo
 ## Smakprofil
 <div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
   {% include smakklocka.html label="Fyllighet" min=7 max=9 %}
-  {% include smakklocka.html label="Strävhet" value=12 %}
-  {% include smakklocka.html label="Syra" value=12 %}
+  {% include smakklocka.html label="Strävhet" min=10 max=12 %}
+  {% include smakklocka.html label="Syra" min=9 max=11 %}
 </div>
 
 ## Färg och utseende
