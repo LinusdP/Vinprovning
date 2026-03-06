@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinprovning - Testbed</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; padding: 40px; background: #f4f4f4; text-align: center; }
+        .preview-box { border: 1px solid #ddd; padding: 60px; border-radius: 8px; background: #fff; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+        
+        /* THE SMAKKLOCKA CSS */
+        .clock-face { width: 100px; height: 100px; border-radius: 50%; border: 4px solid #333; position: relative; box-sizing: border-box; background: #fff; display: inline-block; }
+        .cone { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 50%; background: conic-gradient(transparent calc(var(--start) * 30deg), #ddd calc(var(--start) * 30deg) calc(var(--end) * 30deg), transparent calc(var(--end) * 30deg)); z-index: 1; }
+        .tick { position: absolute; top: 0; left: 50%; height: 50%; width: 2px; transform-origin: bottom center; transform: translateX(-50%) rotate(calc(var(--i) * 30deg)); z-index: 5; }
+        .tick::before { content: ''; display: block; width: 100%; height: 8px; background: #333; }
+        .hand { position: absolute; bottom: 50%; left: 50%; width: 4px; height: 32%; background: #333; transform-origin: bottom center; transform: translateX(-50%) rotate(calc(var(--hour) * 30deg)); border-radius: 4px; z-index: 10; }
+        .hand::before { content: ''; position: absolute; top: -8px; left: 50%; transform: translateX(-50%); border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 10px solid #333; }
+        .clock-face::after { content: ''; position: absolute; top: 50%; left: 50%; width: 8px; height: 8px; background: #333; border-radius: 50%; transform: translate(-50%, -50%); z-index: 11; }
+        .smakklocka-wrapper { display: inline-flex; flex-direction: column; align-items: center; margin: 15px; }
+
+        /* THE DENSITY CSS */
+        .density-wrapper { margin: 30px 0; width: 100%; }
+        .density-bar { height: 18px; width: 100%; border-radius: 9px; border: 2px solid #333; position: relative; background: linear-gradient(to right, #d14d5d 0%, #8b0000 50%, #3b090b 100%); box-sizing: border-box; }
+        .density-bracket { position: absolute; top: -10px; bottom: -10px; width: 30%; border-left: 3px solid #333; border-right: 3px solid #333; border-top: 3px solid #333; z-index: 10; left: var(--pos); transform: translateX(-50%); }
+        .density-marker { position: absolute; top: -6px; bottom: -6px; width: 6px; background: #fff; border: 2px solid #333; border-radius: 3px; left: var(--pos); transform: translateX(-50%); z-index: 11; }
+        .density-legend { display: flex; justify-content: space-between; font-size: 0.75em; font-weight: bold; text-transform: uppercase; color: #444; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Vinprovning Testbed</h1>
+    
+    <div class="preview-box">
+        <h3>Taste Clocks</h3>
+        <div class="smakklocka-wrapper">
+          <div class="clock-face">
+            <div class="cone" style="--start: 3; --end: 6;"></div>
+            <div class="tick" style="--i: 1;"></div><div class="tick" style="--i: 2;"></div><div class="tick" style="--i: 3;"></div><div class="tick" style="--i: 4;"></div><div class="tick" style="--i: 5;"></div><div class="tick" style="--i: 6;"></div><div class="tick" style="--i: 7;"></div><div class="tick" style="--i: 8;"></div><div class="tick" style="--i: 9;"></div><div class="tick" style="--i: 10;"></div><div class="tick" style="--i: 11;"></div><div class="tick" style="--i: 12;"></div>
+          </div>
+        </div>
+
+        <hr>
+
+        <h3>Density Meter</h3>
+        <div class="density-wrapper">
+            <div class="density-bar"><div class="density-bracket" style="--pos: 35%;"></div></div>
+            <div class="density-legend"><span>Låg</span><span>Medel</span><span>Hög</span></div>
+        </div>
+    </div>
+</body>
+</html>

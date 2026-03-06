@@ -11,11 +11,13 @@ title: Cabernet Sauvignon
 - **Från ekfat/trä:** Blyertspenna, ceder, cigarrlåda, kaffe
 
 ## Smakprofil
-- **Fyllighet:** Hög
-- **Strävhet:** Hög
-- **Syra:** Hög
+<div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
+  {% include smakklocka.html label="Fyllighet" value=11 %}
+  {% include smakklocka.html label="Strävhet" value=10 %}
+  {% include smakklocka.html label="Syra" value=10 %}
+</div>
 
 ## Färg och utseende
 - **Nyans:** Mörk blåröd till violett.
 - **Täthet:** Mycket hög
-![Täthet](../images/color.svg)
+{% include tathet.html percent="92%" %}

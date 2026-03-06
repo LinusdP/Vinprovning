@@ -11,11 +11,13 @@ title: Merlot
 - **Örtighet:** Lagerblad och te.
 
 ## Smakprofil
-- **Fyllighet:** Hög
-- **Strävhet:** Medel till hög
-- **Syra:** Medel
+<div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
+  {% include smakklocka.html label="Fyllighet" value=9 %}
+  {% include smakklocka.html label="Strävhet" min=5 max=7 %}
+  {% include smakklocka.html label="Syra" value=5 %}
+</div>
 
 ## Färg och utseende
 - **Nyans:** Från rött till djupt rubinröd
 - **Täthet:** Hög
-![Täthet](../images/color.svg)
+{% include tathet.html value="hög" %}

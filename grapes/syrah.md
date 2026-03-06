@@ -11,11 +11,13 @@ title: Syrah
 - **Charkuterier/Animaliskt:** Rökt kött, läder.
 
 ## Smakprofil
-- **Fyllighet:** Medel till hög
-- **Strävhet:** Medel till hög
-- **Syra:** Hög
+<div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
+  {% include smakklocka.html label="Fyllighet" min=9 max=11 %}
+  {% include smakklocka.html label="Strävhet" value=9 %}
+  {% include smakklocka.html label="Syra" value=9 %}
+</div>
 
 ## Färg och utseende
 - **Nyans:** Mörkröd till blålila.
 - **Täthet:** Hög till mycket hög
-![Täthet](../images/color.svg)
+{% include tathet.html value="medel-hög" %}

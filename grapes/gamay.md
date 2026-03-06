@@ -11,11 +11,13 @@ title: Gamay
 - **Speciella toner från kolsyrejäsning:** Skumbanan, bubbelgum, kirsch.
 
 ## Smakprofil
-- **Fyllighet:** Låg till medel
-- **Strävhet:** Låg
-- **Syra:** Hög
+<div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
+  {% include smakklocka.html label="Fyllighet" min=2 max=4 %}
+  {% include smakklocka.html label="Strävhet" value=2 %}
+  {% include smakklocka.html label="Syra" value=10 %}
+</div>
 
 ## Färg och utseende
 - **Nyans:** Röd till blåröd
 - **Täthet:** Låg
-![Täthet](../images/color.svg)
+{% include tathet.html value="låg" %}

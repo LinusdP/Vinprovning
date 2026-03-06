@@ -11,11 +11,13 @@ title: Nebbiolo
 - **Tertiära toner:** Tjära, tobak, lakrits, läder
 
 ## Smakprofil
-- **Fyllighet:** Medel till hög
-- **Strävhet:** Mycket hög
-- **Syra:** Mycket hög
+<div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
+  {% include smakklocka.html label="Fyllighet" min=7 max=9 %}
+  {% include smakklocka.html label="Strävhet" value=12 %}
+  {% include smakklocka.html label="Syra" value=12 %}
+</div>
 
 ## Färg och utseende
 - **Nyans:** Röd till tegelröd (orangeaktig kant vid mognad)
 - **Täthet:** Låg till medel
-![Täthet](../images/color.svg)
+{% include tathet.html value="låg-medel" %}
