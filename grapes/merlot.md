@@ -1,4 +1,8 @@
-﻿# Merlot
+﻿---
+layout: page
+title: Merlot
+---
+# Merlot
 
 ![Merlot](../images/merlot.png)
 

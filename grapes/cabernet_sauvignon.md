@@ -1,4 +1,8 @@
-﻿# Cabernet Sauvignon
+﻿---
+layout: page
+title: Cabernet Sauvignon
+---
+# Cabernet Sauvignon
 
 ![Cabernet Sauvignon](../images/cabernet_sauvignon.png)
 

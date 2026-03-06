@@ -1,4 +1,8 @@
-﻿# Nebbiolo
+﻿---
+layout: page
+title: Nebbiolo
+---
+# Nebbiolo
 
 ![Nebbiolo](../images/nebbiolo.md)
 

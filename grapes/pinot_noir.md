@@ -1,4 +1,8 @@
-﻿# Pinot Noir
+﻿---
+layout: page
+title: Pinot Noir
+---
+# Pinot Noir
 
 ![Pinot Noir](../images/pinot_noir.png)
 

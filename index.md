@@ -1,4 +1,8 @@
-﻿# Vinprovningsguide - Druvprofiler
+﻿---
+layout: home
+title: Vinprovningsguide - Druvprofiler
+---
+# Vinprovningsguide - Druvprofiler
 
 Välkommen till din guide för typiska viner baserat på druvsort.
 

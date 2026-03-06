@@ -1,4 +1,8 @@
-﻿# Gamay
+﻿---
+layout: page
+title: Gamay
+---
+# Gamay
 
 ![Gamay](../images/gamay.png)
 
