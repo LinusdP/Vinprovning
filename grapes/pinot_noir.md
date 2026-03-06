@@ -13,8 +13,8 @@ title: Pinot Noir
 ## Smakprofil
 <div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
   {% include smakklocka.html label="Fyllighet" min=3 max=6 %}
-  {% include smakklocka.html label="Strävhet" value=3 %}
-  {% include smakklocka.html label="Syra" value=10 %}
+  {% include smakklocka.html label="Strävhet" min=2 max=5 %}
+  {% include smakklocka.html label="Syra" min=9 max=11 %}
 </div>
 
 ## Färg och utseende
