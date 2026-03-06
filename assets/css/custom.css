@@ -101,10 +101,11 @@
     border-radius: 9px;
     border: 2px solid #333;
     position: relative;
-    /* Red wine scale: from pale ruby to deep dark red/black */
+    /* Red wine scale: non-linear to keep it lighter for longer */
     background: linear-gradient(to right, 
         #d14d5d 0%, 
-        #8b0000 50%, 
+        #a61c2e 45%,
+        #8b0000 70%, 
         #3b090b 100%
     );
     box-sizing: border-box;
