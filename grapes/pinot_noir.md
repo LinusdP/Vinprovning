@@ -13,6 +13,6 @@
 - **Syra:** Hög
 
 ## Färg och utseende
-![Red Color Gradient](../images/color.svg)
+![Täthet](../images/color.svg)
 - **Nyans:** Röd till rubinröd (blir snabbt tegelröd med ålder)
 - **Täthet:** Låg

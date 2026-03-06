@@ -13,6 +13,6 @@
 - **Syra:** Hög
 
 ## Färg och utseende
-![Red Color Gradient](../images/color.svg)
+![Täthet](../images/color.svg)
 - **Nyans:** Mörk blåröd till violett.
 - **Täthet:** Mycket hög

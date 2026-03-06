@@ -13,6 +13,6 @@
 - **Syra:** Mycket hög
 
 ## Färg och utseende
-![Red Color Gradient](../images/color.svg)
+![Täthet](../images/color.svg)
 - **Nyans:** Röd till tegelröd (orangeaktig kant vid mognad)
 - **Täthet:** Låg till medel
