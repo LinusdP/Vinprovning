@@ -11,9 +11,11 @@ title: Pinot Noir
 - **Vegetation/Jordighet:** Multna löv, svamp, fuktig jord, undervegetation.
 
 ## Smakprofil
-- **Fyllighet:** Låg till medel
-- **Strävhet:** Låg
-- **Syra:** Hög
+<div style="display: flex; flex-wrap: wrap;">
+  {% include smakklocka.html label="Fyllighet" value=4 %}
+  {% include smakklocka.html label="Strävhet" value=3 %}
+  {% include smakklocka.html label="Syra" value=10 %}
+</div>
 
 ## Färg och utseende
 - **Nyans:** Röd till rubinröd (blir snabbt tegelröd med ålder)

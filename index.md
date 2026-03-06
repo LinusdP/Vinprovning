@@ -1,6 +1,6 @@
 ﻿---
 layout: home
-title: Hem
+title: Guide
 ---
 Välkommen till din guide för typiska viner baserat på druvsort.
 
