@@ -19,11 +19,13 @@
 
 /* 12 steps conic gradient using 30deg increments */
 .smakklocka-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  /* Values are calculated in the include: 30 * value */
-  transform: rotate(-90deg); /* Start at top/12 o'clock */
+  /* Conic gradient naturally starts at 0deg (12 o'clock) */
 }
 
 /* Inner circle to make it a ring/donut */

@@ -1,7 +1,7 @@
 {% assign degrees = include.value | times: 30 %}
 <div class="smakklocka-container">
   <div class="smakklocka-circle">
-    <div class="smakklocka-fill" style="background: conic-gradient(#2a2a2a {{ degrees }}deg, #eee 0deg); transform: rotate(-90deg);"></div>
+    <div class="smakklocka-fill" style="background: conic-gradient(#2a2a2a {{ degrees }}deg, #eee 0deg);"></div>
   </div>
   <span class="smakklocka-label">{{ include.label }}</span>
   <span class="smakklocka-value">{{ include.value }}/12</span>
