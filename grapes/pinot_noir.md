@@ -11,8 +11,8 @@ title: Pinot Noir
 - **Vegetation/Jordighet:** Multna löv, svamp, fuktig jord, undervegetation.
 
 ## Smakprofil
-<div style="display: flex; flex-wrap: wrap;">
-  {% include smakklocka.html label="Fyllighet" value=4 %}
+<div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
+  {% include smakklocka.html label="Fyllighet" min=3 max=6 %}
   {% include smakklocka.html label="Strävhet" value=3 %}
   {% include smakklocka.html label="Syra" value=10 %}
 </div>

@@ -1,72 +1,89 @@
-.smakklocka-container {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+.clock-face {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #333;
+    position: relative;
+    box-sizing: border-box;
+    background: #fff;
+    display: inline-block;
 }
 
-.smakklocka-circle {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  border: 2px solid #2a2a2a;
-  position: relative;
-  background: #fff;
-  overflow: hidden;
-  box-shadow: inset 0 0 0 2px #fff;
+.cone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(
+        transparent calc(var(--start) * 30deg), 
+        #ddd calc(var(--start) * 30deg) calc(var(--end) * 30deg), 
+        transparent calc(var(--end) * 30deg)
+    );
+    z-index: 1;
 }
 
-/* 12 steps conic gradient using 30deg increments */
-.smakklocka-fill {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  /* Conic gradient naturally starts at 0deg (12 o'clock) */
+.tick {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 50%;
+    width: 2px;
+    transform-origin: bottom center;
+    transform: translateX(-50%) rotate(calc(var(--i) * 30deg));
+    z-index: 5;
 }
 
-/* Inner circle to make it a ring/donut */
-.smakklocka-circle::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 30px;
-  height: 30px;
-  background: #fff;
-  border: 2px solid #2a2a2a;
-  border-radius: 50%;
-  z-index: 3;
+.tick::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 8px;
+    background: #333;
 }
 
-/* Tick marks for exactly 12 positions */
-.smakklocka-circle::after {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  border-radius: 50%;
-  background: repeating-conic-gradient(
-    transparent 0deg 28deg,
-    #2a2a2a 28deg 30deg
-  );
-  z-index: 2;
-  pointer-events: none;
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    width: 4px;
+    height: 32%;
+    background: #333;
+    transform-origin: bottom center;
+    transform: translateX(-50%) rotate(calc(var(--hour) * 30deg));
+    border-radius: 4px;
+    z-index: 10;
 }
 
-.smakklocka-label {
-  margin-top: 8px;
-  font-weight: 600;
-  font-size: 0.85em;
-  text-transform: uppercase;
-  color: #2a2a2a;
+.hand::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 10px solid #333;
 }
 
-.smakklocka-value {
-  font-size: 0.75em;
-  color: #888;
-  margin-top: 2px;
+.clock-face::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background: #333;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+}
+
+.smakklocka-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    font-family: sans-serif;
 }
