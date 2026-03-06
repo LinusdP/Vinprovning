@@ -1,13 +1,13 @@
 title: Vinprovningsguide
 description: En guide till typiska viner baserat på druvsort.
 theme: minima
-remote_theme: jekyll/minima
-google_analytics: # Add your ID if you have one
-show_excerpts: true
+
+# URL settings
+url: "https://LinusdP.github.io"
+baseurl: "/Vinprovning"
 
 # Jekyll configuration
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
