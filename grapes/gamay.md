@@ -17,6 +17,6 @@ title: Gamay
 - **Syra:** Hög
 
 ## Färg och utseende
-![Täthet](../images/color.svg)
 - **Nyans:** Röd till blåröd
 - **Täthet:** Låg
+![Täthet](../images/color.svg)

@@ -17,6 +17,6 @@ title: Cabernet Sauvignon
 - **Syra:** Hög
 
 ## Färg och utseende
-![Täthet](../images/color.svg)
 - **Nyans:** Mörk blåröd till violett.
 - **Täthet:** Mycket hög
+![Täthet](../images/color.svg)

@@ -17,6 +17,6 @@ title: Merlot
 - **Syra:** Medel
 
 ## Färg och utseende
-![Täthet](../images/color.svg)
 - **Nyans:** Från rött till djupt rubinröd
 - **Täthet:** Hög
+![Täthet](../images/color.svg)

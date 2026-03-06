@@ -17,6 +17,6 @@ title: Nebbiolo
 - **Syra:** Mycket hög
 
 ## Färg och utseende
-![Täthet](../images/color.svg)
 - **Nyans:** Röd till tegelröd (orangeaktig kant vid mognad)
 - **Täthet:** Låg till medel
+![Täthet](../images/color.svg)

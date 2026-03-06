@@ -17,6 +17,6 @@ title: Pinot Noir
 - **Syra:** Hög
 
 ## Färg och utseende
-![Täthet](../images/color.svg)
 - **Nyans:** Röd till rubinröd (blir snabbt tegelröd med ålder)
 - **Täthet:** Låg
+![Täthet](../images/color.svg)

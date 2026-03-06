@@ -17,6 +17,6 @@ title: Syrah
 - **Syra:** Hög
 
 ## Färg och utseende
-![Täthet](../images/color.svg)
 - **Nyans:** Mörkröd till blålila.
 - **Täthet:** Hög till mycket hög
+![Täthet](../images/color.svg)
