@@ -20,4 +20,4 @@ title: Merlot
 ## Färg och utseende
 - **Nyans:** Från rött till djupt rubinröd
 - **Täthet:** Hög
-{% include tathet.html value="hög" %}
+{% include tathet.html value="med-high" %}

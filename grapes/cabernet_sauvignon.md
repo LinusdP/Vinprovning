@@ -20,4 +20,4 @@ title: Cabernet Sauvignon
 ## Färg och utseende
 - **Nyans:** Mörk blåröd till violett.
 - **Täthet:** Mycket hög
-{% include tathet.html percent="92%" %}
+{% include tathet.html value="high" %}

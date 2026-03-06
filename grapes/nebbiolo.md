@@ -20,4 +20,4 @@ title: Nebbiolo
 ## Färg och utseende
 - **Nyans:** Röd till tegelröd (orangeaktig kant vid mognad)
 - **Täthet:** Låg till medel
-{% include tathet.html value="låg-medel" %}
+{% include tathet.html value="low-med" %}

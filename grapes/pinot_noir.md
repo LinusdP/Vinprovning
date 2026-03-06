@@ -20,4 +20,4 @@ title: Pinot Noir
 ## Färg och utseende
 - **Nyans:** Röd till rubinröd (blir snabbt tegelröd med ålder)
 - **Täthet:** Låg
-{% include tathet.html value="låg" %}
+{% include tathet.html value="low" %}

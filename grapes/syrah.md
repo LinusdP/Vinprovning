@@ -20,4 +20,4 @@ title: Syrah
 ## Färg och utseende
 - **Nyans:** Mörkröd till blålila.
 - **Täthet:** Hög till mycket hög
-{% include tathet.html value="medel-hög" %}
+{% include tathet.html value="high" %}

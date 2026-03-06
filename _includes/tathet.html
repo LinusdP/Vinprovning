@@ -1,9 +1,9 @@
 {% assign pos = "" %}
-{% if include.value == "låg" %}{% assign pos = "15%" %}
-{% elsif include.value == "låg-medel" %}{% assign pos = "35%" %}
-{% elsif include.value == "medel" %}{% assign pos = "50%" %}
-{% elsif include.value == "medel-hög" %}{% assign pos = "65%" %}
-{% elsif include.value == "hög" %}{% assign pos = "85%" %}
+{% if include.value == "low" %}{% assign pos = "15%" %}
+{% elsif include.value == "low-med" %}{% assign pos = "35%" %}
+{% elsif include.value == "med" %}{% assign pos = "50%" %}
+{% elsif include.value == "med-high" %}{% assign pos = "65%" %}
+{% elsif include.value == "high" %}{% assign pos = "85%" %}
 {% elsif include.percent %}{% assign pos = include.percent %}
 {% endif %}
 

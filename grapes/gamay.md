@@ -20,4 +20,4 @@ title: Gamay
 ## Färg och utseende
 - **Nyans:** Röd till blåröd
 - **Täthet:** Låg
-{% include tathet.html value="låg" %}
+{% include tathet.html value="low" %}
