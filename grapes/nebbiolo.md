@@ -4,7 +4,7 @@ title: Nebbiolo
 ---
 # Nebbiolo
 
-![Nebbiolo](../images/nebbiolo.md)
+![Nebbiolo](../images/nebbiolo.png)
 
 ## Typiska aromer
 - **Röda bär/frukt:** Körsbär, nypon, skogsbär
