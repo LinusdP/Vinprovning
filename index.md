@@ -10,4 +10,7 @@ Välkommen till din guide för typiska viner baserat på druvsort.
 - [Syrah](grapes/syrah.md)
 - [Merlot](grapes/merlot.md)
 - [Gamay](grapes/gamay.md)
-- [Nebbiolo](grapes/nebbiolo.md)
+- [Nebbiolo](grapes/nebbiolo.md)  
+
+## Skanna för att visa guiden
+(../images/qr.png)
