@@ -13,4 +13,4 @@ Välkommen till din guide för typiska viner baserat på druvsort.
 - [Nebbiolo](grapes/nebbiolo.md)  
 
 ## Skanna för att visa guiden
-(../images/qr.png)
+![QR](images/qr.png)
